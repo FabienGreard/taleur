@@ -5,7 +5,7 @@ describe('Header', () => {
   test('Should set a default document title', () => {
     render(<Header />);
 
-    expect(document.title).toEqual('NextJs Boilerplate');
+    expect(document.title).toEqual('Taleur.io');
   });
 
   test('Should set a document title', () => {
